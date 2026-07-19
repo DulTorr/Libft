@@ -6,7 +6,7 @@
 /*   By: dutorrez <dutorrez@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/28 04:48:46 by dutorrez          #+#    #+#             */
-/*   Updated: 2026/06/28 04:51:42 by dutorrez         ###   ########.fr       */
+/*   Updated: 2026/07/19 00:30:00 by dutorrez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 size_t	ft_strlen(const char *s)
 {
-	size_t	i;	
+	size_t	i;
 
 	i = 0;
 	while (s[i] != '\0')

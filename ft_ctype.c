@@ -6,7 +6,7 @@
 /*   By: dutorrez <dutorrez@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/28 04:40:59 by dutorrez          #+#    #+#             */
-/*   Updated: 2026/07/12 23:12:13 by dutorrez         ###   ########.fr       */
+/*   Updated: 2026/07/19 00:23:26 by dutorrez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_isalpha(int c)
 {
-	if (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z')
+	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 		return (1);
 	return (0);
 }
