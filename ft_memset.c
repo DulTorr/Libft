@@ -6,7 +6,7 @@
 /*   By: dutorrez <dutorrez@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/12 23:02:22 by dutorrez          #+#    #+#             */
-/*   Updated: 2026/07/12 23:31:22 by dutorrez         ###   ########.fr       */
+/*   Updated: 2026/07/20 02:01:25 by dutorrez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ void	*ft_memset(void *s, int c, size_t n)
 
 	ptr = (unsigned char *)s;
 	i = 0;
+	if (s == NULL)
+		return (NULL);
 	while (i < n)
 	{
 		ptr[i] = (unsigned char)c;
