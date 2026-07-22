@@ -1,27 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_toupper_tolower.c                               :+:      :+:    :+:   */
+/*   ft_ctype.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dutorrez <dutorrez@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/07/12 22:58:17 by dutorrez          #+#    #+#             */
-/*   Updated: 2026/07/21 19:49:42 by dutorrez         ###   ########.fr       */
+/*   Created: 2026/06/28 04:40:59 by dutorrez          #+#    #+#             */
+/*   Updated: 2026/07/22 04:21:38 by dutorrez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_toupper(int c)
+int	ft_isprint(int c)
 {
-	if (c >= 'a' && c <= 'z')
-		return (c - 32);
-	return (c);
-}
-
-int	ft_tolower(int c)
-{
-	if (c >= 'A' && c <= 'Z')
-		return (c + 32);
-	return (c);
+	if (c >= 32 && c <= 126)
+		return (1);
+	return (0);
 }

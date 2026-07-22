@@ -6,15 +6,16 @@
 /*   By: dutorrez <dutorrez@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/26 22:26:31 by dutorrez          #+#    #+#             */
-/*   Updated: 2026/07/21 20:01:43 by dutorrez         ###   ########.fr       */
+/*   Updated: 2026/07/22 04:38:18 by dutorrez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdlib.h> //Libreria que trabaja con la memoria.
-# include <unistd.h> //Libreria para usar write.
+# include <stdlib.h> 
+# include <unistd.h>
+# include <stdint.h>
 
 typedef struct s_list
 {
